@@ -1,0 +1,73 @@
+@charset "UTF=8";
+
+/* Styles for all of the webpage */
+html{
+    display: block;
+}
+
+/* Styles for the body the webpage */
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/bg\ image.png);
+}
+
+/* Styles for title */
+header {
+    margin-top: 5%;
+    margin-bottom: -1%;
+    font-size: 300%;
+    text-align: center;
+    font-family: Castellar;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Styles for navigation bar */
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 175%;
+    font-family: Garamond, serif;
+    background-color: rgba(175, 222, 247, 0.8);
+    border: 1px solid #1a84a8;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/* Styles for nav bar */
+li {
+    display: inline;
+}
+
+/* Styles for nav bar links */
+li a {
+    color: #2f2f2f;
+    text-decoration: none;
+    transition: background-color 0.4s ease; 
+    border-radius: 10px; 
+}
+
+/* Styles for nav bar links on hover */
+li a:hover {
+    background-color: rgba(26, 132, 168, 0.5);
+}
+
+/* Styles for the phone image */
+#phone{
+    border: 2px solid #1a84a8;
+    height: 800px;
+    width: 1200px;
+}
+
+/* Styles for 'info' text. */
+#info{
+    font-size: 175%;
+    font-family: Garamond, serif;
+    text-align: center;
+    background-color: rgba(175, 222, 247, 0.8);
+    border: 2px solid #1a84a8;
+    width: auto;
+    padding: 2%;
+}
